@@ -1,0 +1,8 @@
+.btn-keranjang {
+  background-color: rgb(255, 40, 2);
+  color: white;
+}
+
+.btn-keranjang:hover {
+  background-color: rgb(219, 37, 5);
+}

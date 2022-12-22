@@ -1,0 +1,25 @@
+.navbar-menu {
+  /* background-color: pink; */
+  border-bottom: 2px solid pink;
+}
+
+.navbar-menu .navbar-toggler .navbar-toggler-icon{
+  background-color: aqua;
+  color: black;
+  z-index: 99;
+}
+
+.navbar-menu {
+  background-color:rgb(241, 87, 112); 
+}
+
+.navbar-menu .nav-link{
+  /* color:rgb(235, 78, 104);  */
+  font-weight: 600;
+  color: white;
+  transition: color ease .3s;
+}
+.navbar-menu .nav-link:hover{
+  font-weight: 600;
+  color: pink;
+}

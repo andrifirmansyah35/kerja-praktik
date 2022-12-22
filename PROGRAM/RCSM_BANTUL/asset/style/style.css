@@ -1,0 +1,55 @@
+.form-pencarian-produk .btn-pencarian {
+  border-top-left-radius: 0px important!;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a.d-produk{
+  overflow: hidden;
+  transition: all ease .3s;
+  background: white;
+}
+
+a.d-produk:hover {
+  transform: translateY(-3px);
+}
+
+/* a.d-produk:hover .thumbnail .produk-caption{
+  background: rgba(90, 90, 90, 0.5);
+} */
+
+.d-produk .display {
+  border-bottom: 2px solid rgb(255, 255, 255);
+  transition: border ease .3s;
+}
+
+a.d-produk:hover .display{
+  border-bottom: 2px solid rgb(230, 75, 101)
+}
+
+.d-produk .display .produk-img{
+  background-color: blue;
+  height: 170px;
+  width: 100%;
+}
+
+.d-produk .display .produk-img img{
+  height: 100%; 
+  width: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.d-produk .display .produk-caption{
+  margin-top: -7px;
+  padding: 10px 5px 0px 10px;
+}
+
+.d-produk .display .produk-caption .p-stock{
+  transform: translateY();
+  color: rgb(209, 57, 57);
+  font-weight: 500;
+}
+
